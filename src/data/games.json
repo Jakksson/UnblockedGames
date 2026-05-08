@@ -1,0 +1,50 @@
+[
+  {
+    "id": "geometry-dash",
+    "name": "Geometry Dash Lite",
+    "category": "Arcade",
+    "iframeUrl": "https://scratch.mit.edu/projects/105500895/embed",
+    "description": "Jump and fly your way through danger in this rhythm-based action platformer!",
+    "thumbnail": "https://images.unsplash.com/photo-1614680376593-902f74cc0d41?w=400&h=300&fit=crop"
+  },
+  {
+    "id": "2048",
+    "name": "2048",
+    "category": "Puzzle",
+    "iframeUrl": "https://play2048.co/",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "thumbnail": "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?w=400&h=300&fit=crop"
+  },
+  {
+    "id": "tetris",
+    "name": "Tetris",
+    "category": "Classic",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "description": "The world-famous puzzle game that has been enjoyed by millions.",
+    "thumbnail": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=400&h=300&fit=crop"
+  },
+  {
+    "id": "slope",
+    "name": "Slope",
+    "category": "Running",
+    "iframeUrl": "https://krunker.io/",
+    "description": "Drive your ball down the slope in this fast-paced game.",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": "flappy-bird",
+    "name": "Flappy Bird",
+    "category": "Arcade",
+    "iframeUrl": "https://flappybird.io/",
+    "description": "Flap your wings to fly through the pipes.",
+    "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": "pacman",
+    "name": "Pac-Man",
+    "category": "Classic",
+    "iframeUrl": "https://madsane.github.io/pacman-js/",
+    "description": "The classic arcade game where you eat pellets and avoid ghosts.",
+    "thumbnail": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=400&h=300&fit=crop"
+  }
+]
