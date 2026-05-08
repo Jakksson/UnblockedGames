@@ -9,8 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
