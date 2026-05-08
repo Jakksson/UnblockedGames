@@ -10,13 +10,18 @@ const __dirname = path.dirname(__filename);
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: './',
+    base: './', // CRITICAL: Use relative paths for GitHub Pages subfolders
     plugins: [react(), tailwindcss()],
     build: {
+      outDir: 'dist',
       assetsDir: 'assets',
+      emptyOutDir: true,
       rollupOptions: {
         output: {
-          manualChunks: undefined,
+          // Ensure consistent asset naming for easier debugging
+          assetFileNames: 'assets/[name].[hash][extname]',
+          chunkFileNames: 'assets/[name].[hash].js',
+          entryFileNames: 'assets/[name].[hash].js',
         },
       },
     },
